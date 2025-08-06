@@ -1,0 +1,51 @@
+
+body {
+    
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+
+.card:hover {
+
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+
+    }
+
+
+.profile-img  {
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+}
+
+.social-link a {
+
+    margin: 0 10px;
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+
+    
+
